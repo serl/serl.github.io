@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'walkway_semiboldregular';
+    src: url('Walkway_SemiBold-webfont.eot');
+    src: url('Walkway_SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Walkway_SemiBold-webfont.woff') format('woff'),
+         url('Walkway_SemiBold-webfont.ttf') format('truetype'),
+         url('Walkway_SemiBold-webfont.svg#walkway_semiboldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'walkway_oblique_semiboldRg';
+    src: url('Walkway_Oblique_SemiBold-webfont.eot');
+    src: url('Walkway_Oblique_SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Walkway_Oblique_SemiBold-webfont.woff') format('woff'),
+         url('Walkway_Oblique_SemiBold-webfont.ttf') format('truetype'),
+         url('Walkway_Oblique_SemiBold-webfont.svg#walkway_oblique_semiboldRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+	background: url(../img/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body, h1, h2, p {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	color: white;
+	background: rgb(80, 80, 80);
+	background: rgba(0, 0, 0, 0.5);
+
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+div:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+div img {
+	float: left;
+	margin-right: 15px;
+}
+
+div h1, div h2, div p {
+	margin-left: 15px;
+}
+
+div h1 {
+	font-family: 'walkway_semiboldregular', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 3em;
+	margin-top: 6px;
+	margin-bottom: 7px;
+}
+
+div h2 {
+	font-family: 'walkway_oblique_semiboldRg', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+}
+
+div p {
+	font-family: 'walkway_semiboldregular', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	margin-top: 7px;
+	padding-bottom: 9px;
+}
+
+@media (max-width: 410px) {
+	div {
+		top: 0;
+	}
+	div img {
+		float: none;
+		margin: 15px 0 0 15px;
+	}
+}
+
