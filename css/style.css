@@ -62,19 +62,19 @@ div h1, div h2, div p {
 
 div h1 {
 	font-family: 'walkway_semiboldregular', Verdana, Arial, Helvetica, sans-serif;
-	font-size: 3em;
+	font-size: 2.7em;
 	margin-top: 6px;
 	margin-bottom: 7px;
 }
 
 div h2 {
 	font-family: 'walkway_oblique_semiboldRg', Verdana, Arial, Helvetica, sans-serif;
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
 div p {
 	font-family: 'walkway_semiboldregular', Verdana, Arial, Helvetica, sans-serif;
-	font-size: 1.1em;
+	font-size: 1em;
 	margin-top: 7px;
 	padding-bottom: 9px;
 }
